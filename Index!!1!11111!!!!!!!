@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Autistic Codes/style.css">
+    <!-- this is to connect to my style.css -->
+    <title>Surabaya</title>
+</head>
+<div class="container">
+  <input
+   type="email"
+   class="form-control"
+   id="email"
+   name="email"
+   placeolder="Emeli heirrrr"
+   pattern="[a-zA-Z0-9._%+-]+@gmail/.com"
+   required>
+</div>
+<div></div>
+<body>
+    <header class="box">
+        <h1><a href="Index.html">Surabaya</a></h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem exercitationem repudiandae, iusto quibusdam deserunt distinctio sunt doloribus deleniti suscipit at non, id, expedita necessitatibus beatae consequuntur! Impedit, asperiores. Cupiditate, id.</p>
+        <nav>
+            <ul style= "box">
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href="#geografis">Geografis</a></li>
+                <li><a href="#wisata">Wisata</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- CTRL + / -->
+    <!-- my header stop here -->
+
+    <!-- main page start here -->
+    <main>
+        <article>
+            <h2>Sejarah</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae accusantium impedit eius ipsum iure id praesentium nesciunt molestias ipsa! Nostrum vero porro tempore quas itaque expedita alias, aut quibusdam nesciunt?</p>
+        </article>
+        <!-- sejarah stop here -->
+        <article>
+            <h2>Geografis</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum adipisci quae impedit tempora nam fuga ad vel asperiores illo, deleniti quasi facilis ipsam debitis cupiditate excepturi aperiam et, perferendis quam.</p>
+        </article>
+        <!-- geografis stop here -->
+        <article>
+            <h2>Wisata</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nostrum repellendus, recusandae porro nisi enim libero cumque rerum sed incidunt, quidem magnam quia numquam eius asperiores obcaecati reprehenderit debitis quae?</p>
+        </article>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://basketyuk.id/uploads/2023/08/kZn3WxMD1Ssi-64eee00bf1330.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://i.redd.it/puq6ja268n3d1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://basketyuk.id/uploads/2023/08/kZn3WxMD1Ssi-64eee00bf1330.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+    </main>
+
+    <!-- this is where the footer start -->
+    <footer>
+        &copy; 2025, Kireina Kameloeh
+
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  </head>
+    </footer>
+</body>
+</html>
